@@ -5,18 +5,6 @@ public abstract class NotificacionDecorador implements Notificacion {
 	private TarjetaCredito tarjeta;
 	private String mensaje;
 
-	@Override
-	public void enviar() {
-		System.out.println(mensaje);
-		
-	}
-
-	public void NotificacionDecorador(Notificacion notificacion, TarjetaCredito tarjeta, String mensaje) {
-		this.notificacion= notificacion;
-		this.tarjeta= tarjeta;
-		this.mensaje=mensaje;
-	}
-
 	public Notificacion getNotificacion() {
 		return notificacion;
 	}

@@ -1,5 +1,5 @@
 package decorator;
 
-public class Signal {
+public class Signal extends Mensajeria{
 
 }
